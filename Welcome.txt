@@ -1,3 +1,6 @@
 Yum update -y
 yum install httpd
 systemctl restart httpd
+systemctl enabled httpd
+httpd -t
+
